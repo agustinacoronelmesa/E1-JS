@@ -5,7 +5,7 @@ function determinaParOImpar(number) {
     if (Par) {
         console.log(`${number} es un número par`);
     } else if (number % 2 !== 0 && number % 2 !== 1) {
-        console.log("Ingrese un numero por favor");
+        console.log("Ingrese un numero");
     } else {
         console.log(`${number} es un número impar`);
     }
